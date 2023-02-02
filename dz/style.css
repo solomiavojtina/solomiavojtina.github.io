@@ -1,0 +1,46 @@
+body {
+	background-color: cyan;
+}
+
+.text {
+	font-weight: bold;
+	font-size: 25px;
+	color: red;
+}
+
+
+.text:hover { 
+  text-decoration-line: underline;
+
+}
+
+
+.kartynky {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+img {
+	border: 2px solid #000000;
+	border-radius: 10px;
+	padding: 0px;
+	width: 250px;
+	height: 200px;
+}
+
+img:hover { 
+  animation: scale1 1s infinite alternate;
+}
+
+@keyframes scale1 {
+  0% {scale: 1;}
+  100% {scale: 1.25;}
+}
+
+.abzac {
+	float: center;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	font-weight: bold;
+}
